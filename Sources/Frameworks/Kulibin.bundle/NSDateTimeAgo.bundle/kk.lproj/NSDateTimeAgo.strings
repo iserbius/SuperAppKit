@@ -1,0 +1,135 @@
+/*
+ RULES:
+ Assume value for (seconds, hours, minutes, days, weeks, months or years) is XXXY, Y is last digit, XY is last two digits;
+ */
+
+"@ ago" = "%@ бұрын";
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d days ago" = "%d күн бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _days ago" = "%d күн бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __days ago" = "%d күн бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d hours ago" = "%d сағат бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _hours ago" = "%d сағат бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __hours ago" = "%d сағат бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d minutes ago" = "%d минут бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _minutes ago" = "%d минут бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __minutes ago" = "%d минут бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d months ago" = "%d ай бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _months ago" = "%d ай бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __months ago" = "%d ай бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d seconds ago" = "%d секунд бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _seconds ago" = "%d секунд бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __seconds ago" = "%d секунд бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d weeks ago" = "%d апта бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _weeks ago" = "%d апта бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __weeks ago" = "%d апта бұрын";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d years ago" = "%d жыл бұрын";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _years ago" = "%d жыл бұрын";
+
+/* Y == 1 AND XY != 11; */
+"%d __years ago" = "%d жыл бұрын";
+
+
+/* No comment provided by engineer. */
+"A minute ago" = "Бір минут бұрын";
+"Two minutes ago" = "Екі минут бұрын";
+"Three minutes ago" = "Үш минут бұрын";
+"Four minutes ago" = "Төрт минут бұрын";
+"Five minutes ago" = "Бес минут бұрын";
+
+/* No comment provided by engineer. */
+"An hour ago" = "Бір сағат бұрын";
+"Two hours ago" = "Екі сағат бұрын";
+"Three hours ago" = "Үш сағат бұрын";
+"Four hours ago" = "Төрт сағат бұрын";
+"Five hours ago" = "Бес сағат бұрын";
+
+/* No comment provided by engineer. */
+"Just now" = "Жаңа ғана";
+
+/* No comment provided by engineer. */
+"Last month" = "Бір ай бұрын";
+
+/* No comment provided by engineer. */
+"Last week" = "Бір апта бұрын";
+
+/* No comment provided by engineer. */
+"Last year" = "Бір жыл бұрын";
+
+/* No comment provided by engineer. */
+"Yesterday" = "Кеше";
+
+/* No comment provided by engineer. */
+"1 year ago" = "1 жыл бұрын";
+
+/* No comment provided by engineer. */
+"1 month ago" = "1 ай бұрын";
+
+/* No comment provided by engineer. */
+"1 week ago" = "1 апта бұрын";
+
+/* No comment provided by engineer. */
+"1 day ago" = "1 күн бұрын";
+
+/* No comment provided by engineer. */
+"This morning" = "Бүгін таңертең";
+
+/* No comment provided by engineer. */
+"This afternoon" = "Бүгін күндіз";
+
+/* No comment provided by engineer. */
+"Today" = "Бүгін";
+
+/* No comment provided by engineer. */
+"This week" = "Осы аптада";
+
+/* No comment provided by engineer. */
+"This month" = "Осы айда";
+
+/* No comment provided by engineer. */
+"This year" = "Биыл";

@@ -1,0 +1,135 @@
+/*
+ RULES:
+ Assume value for (seconds, hours, minutes, days, weeks, months or years) is XXXY, Y is last digit, XY is last two digits;
+ */
+
+"%@ ago" = "%@ таму";
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d days ago" = "%d дзён таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _days ago" = "%d дні таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __days ago" = "%d дзень таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d hours ago" = "%d гадзін таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _hours ago" = "%d гадзіны таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __hours ago" = "%d гадзіну таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d minutes ago" = "%d хвілін таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _minutes ago" = "%d хвіліны таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __minutes ago" = "%d хвіліну таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d months ago" = "%d месяцаў таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _months ago" = "%d месяцы таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __months ago" = "%d месяц таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d seconds ago" = "%d секундаў таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _seconds ago" = "%d секунды таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __seconds ago" = "%d секунду таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d weeks ago" = "%d тыдняў таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _weeks ago" = "%d тыдні таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __weeks ago" = "%d тыдзень таму";
+
+
+/* Y == 0 OR Y > 4 OR (XY > 10 AND XY < 15); */
+"%d years ago" = "%d гадоў таму";
+
+/* Y > 1 AND Y < 5 AND (XY < 10 OR XY > 20); */
+"%d _years ago" = "%d гады таму";
+
+/* Y == 1 AND XY != 11; */
+"%d __years ago" = "%d год таму";
+
+
+/* No comment provided by engineer. */
+"A minute ago" = "Хвіліну таму";
+"Two minutes ago" = "Дзве хвіліны таму";
+"Three minutes ago" = "Тры хвіліны таму";
+"Four minutes ago" = "Чатыры хвіліны таму";
+"Five minutes ago" = "Пяць хвілін таму";
+
+/* No comment provided by engineer. */
+"An hour ago" = "Гадзіну таму";
+"Two hours ago" = "Дзве гадзіны таму";
+"Three hours ago" = "Тры гадзіны таму";
+"Four hours ago" = "Чатыры гадзіны таму";
+"Five hours ago" = "Пяць гадзін таму";
+
+/* No comment provided by engineer. */
+"Just now" = "Толькі што";
+
+/* No comment provided by engineer. */
+"Last month" = "Месяц таму";
+
+/* No comment provided by engineer. */
+"Last week" = "Тыдзень таму";
+
+/* No comment provided by engineer. */
+"Last year" = "Год таму";
+
+/* No comment provided by engineer. */
+"Yesterday" = "Учора";
+
+/* No comment provided by engineer. */
+"1 year ago" = "1 год таму";
+
+/* No comment provided by engineer. */
+"1 month ago" = "1 месяц таму";
+
+/* No comment provided by engineer. */
+"1 week ago" = "1 тыдзень таму";
+
+/* No comment provided by engineer. */
+"1 day ago" = "1 дзень таму";
+
+/* No comment provided by engineer. */
+"This morning" = "Гэтай раніцай";
+
+/* No comment provided by engineer. */
+"This afternoon" = "Сёння днём";
+
+/* No comment provided by engineer. */
+"Today" = "Сёння";
+
+/* No comment provided by engineer. */
+"This week" = "На гэтым тыдні";
+
+/* No comment provided by engineer. */
+"This month" = "У гэтым месяцы";
+
+/* No comment provided by engineer. */
+"This year" = "У гэтым годзе";

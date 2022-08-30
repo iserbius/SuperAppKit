@@ -1,0 +1,11 @@
+%type name=KITDownloadNetworkConfig file=KITDownloadNetworkConfig
+%type name=KITDownloadDirectory file=KITDownload canForwardDeclare=true
+
+KITDownloadConfig includes(RMCoding, RMCopying) {
+    # default KITDownloadDirectoryCaches
+    KITDownloadDirectory(NSInteger) directory
+    NSString *fileExtension
+    NSUInteger sizeLimit
+    NSTimeInterval ageLimit
+    KITDownloadNetworkConfig *networkConfig
+}

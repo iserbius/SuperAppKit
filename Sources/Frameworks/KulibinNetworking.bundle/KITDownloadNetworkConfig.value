@@ -1,0 +1,14 @@
+%type name=NSURLRequestNetworkServiceType library=Foundation file=NSURLRequest canForwardDeclare=false
+
+KITDownloadNetworkConfig includes(RMCoding, RMCopying) {
+    # default YES
+    BOOL background
+    # default NSURLNetworkServiceTypeBackground
+    NSURLRequestNetworkServiceType(NSUInteger) networkServiceType
+    # default NO
+    BOOL allowsCellularAccess
+    # default 3
+    NSInteger maximumConnections
+    # default YES
+    BOOL shouldUseExtendedBackgroundIdleMode                     
+}
