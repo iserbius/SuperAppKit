@@ -1,3 +1,3 @@
-# SuperAppKit-0.85.9005756
+# SuperAppKit SPM Wrapper
 
 A description of this package.
